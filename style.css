@@ -1,0 +1,73 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(56, 56, 56);
+    }
+    main{
+        background-color: rgb(222, 218, 230);
+        width: 66%;
+        height: 80vh;
+        margin-left: 130px;
+        margin-top: 20px;
+        padding: 100px 0px;
+        border-radius: 5px;
+    }
+    main>section{
+        background-color: white;
+        border-radius: 20px;
+        margin: 10px auto 0px auto;
+        width: 35%;
+        box-sizing: border-box;
+        padding: 60px 50px 40px 50px;
+        box-shadow: 0px 4px 19px 1px rgb(228, 224, 241);
+        text-align: center;
+    }
+    input{
+        border: none;
+        color: black;
+        margin: auto;
+    }
+    button{
+        width: 50%;
+        height: 4vh;
+        border-radius: 100px;
+        border: 1px solid rgb(214, 212, 212);
+        color: rgb(94, 92, 92);
+        background-color: white;
+        display: block;
+        margin: 20px auto;
+    }
+    button[type="submit"]{
+        background-color: rgb(2, 2, 56);
+        color: white;
+        margin-top: 60px;
+    }
+    h2{
+        font-size: 120%;
+    }
+    p{
+        font-size: 80%;
+        line-height: 150%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    h3{
+        font-size: 100%;
+        padding: 50px auto;
+    }
+    #recovery{
+        background-color: rgb(238, 236, 241);
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 15px 0;
+    }
+    #recovery>input{
+        background-color: rgb(238, 236, 241);
+    }
+    input::placeholder{
+        color: rgb(56, 56, 56);
+        opacity: 1;
+        text-align: center;
+    }
+    #principal>input::placeholder{
+       font-weight: 600;
+    }
